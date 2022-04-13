@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="page">
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <a href="index.html">
+                    <i class="adobe"><img src="icons/bxl-adobe.svg" alt=""></i>
+                </a>
+                <div class="logo_name">AELab</div>
+            </div>
+            <i class="menu" id="btn"><img src="icons/menu-regular-24.png" alt=""></i>
+        </div>
+        <ul class="nav_list">
+            <li>
+                <a href="lessonone.html">
+                    <i>1</i>
+                    <span class="links_name">Создание маски</span>
+                    <span class="tooltip">Создание маски</span>
+                </a>
+            </li>
+            <li>
+                <a href="lessontwo.html">
+                    <i>2</i>
+                    <span class="links_name">Живое фото</span>
+                    <span class="tooltip">Живое фото</span>
+                </a>
+            </li>
+            <li>
+                <a href="lessonthree.html">
+                    <i>3</i>
+                    <span class="links_name">Цвета объектов</span>
+                    <span class="tooltip">Цвета объектов</span>
+                </a>
+            </li>
+            <li>
+                <a href="lessonfour.html">
+                    <i>4</i>
+                    <span class="links_name">Анимация 3D</span>
+                    <span class="tooltip">Анимация 3D</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i>5</i>
+                    <span class="links_name">Эквалайзер</span>
+                    <span class="tooltip">Эквалайзер</span>
+                </a>
+            </li>
+        </ul>
+        <div class="made">
+            <p class="myname">Выполнил Никита Трунов</p>
+            <p class="job">Курсовая работа</p>
+        </div>
+    </div>
+    <div class="intro_baz">
+        <div class="container">
+            <div class="baz_title">Как сделать эквалайзер в After Effects</div>
+            <div class="mask lesone">
+                <div class="paralax">
+                    <div class="paralax_column">
+                            <div class="paralax_textthree">
+                                <div class="othertext">
+                                    В данном уроке мы разберём тему создания аудиоспектра или эквалайзера из изображения с помощью After Effects и Photoshop. Что такое "аудиоспектр" или как его еще называют "эквалайзер", думаю объяснять не стоит это и так всем понятно. Эффект аудиоспектра обычно применяют на фоновую заставку для какой-нибудь музыкальной композиции или подкаста.
+                                </div>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="paralax">
+                    <div class="paralax_column">
+                            <div class="paralax_textthree">
+                                <div class="box_title"><p class="title">Создание простого эквалайзера в After Effects</p></div>
+                                <div class="othertext">
+                                    Для начала рассмотрим создание простого эквалайзера в After Effects. Создаём новый проект, параметры выставляет здесь следующие: размер я взял стандартный Full HD и чистоту кадров оставим на 25 кадров в секунду. Теперь, так как мы делаем проект для музыкального трека, здесь нужно выставить длительность нашего трека, в данном случае - это 3 минуты 12 секунд.
+                                </div>
+                            </div>
+                            <img class="long" id="result" src="picture/fivestr/1.jpg" alt="">
+                            <div class="paralax_textthree">
+                                <div class="othertext">
+                                    Создаём новую композицию, импортируем трек и помещаем его в композицию. Для этого кликаем правой кнопкой мыши по панели "Project" и в открывшемся меню выбираем "Import" - "File", находим аудио-файл на компьютере и импортируем его.
+                                </div>
+                            </div>
+                            <img class="long" id="result1" src="picture/fivestr/2.jpg" alt="">
+                            <div class="paralax_textthree">
+                                <div class="othertext">
+                                    Чтобы поместить импортированный трек в композицию, просто берём его удерживая левую кнопку мыши и перетаскиваем на композицию.
+                                </div>
+                            </div>
+                            <img class="long" id="result" src="picture/fivestr/3.jpg" alt="">
+                            <div class="paralax_textthree">
+                                <div class="othertext">
+                                    В результате, на шкале времени появляется дорожка. Проигрываем композицию, выделив дорожку с треком и кликнув на пробел, и слышим, что звучит трек.
+                                </div>
+                            </div>
+                            <img class="long" id="result" src="picture/fivestr/4.jpg" alt="">
+                            <div class="paralax_textthree">
+                                <div class="othertext">
+                                    На фон давайте поставим какую-нибудь картинку, чтобы смотрелось всё симпатичнее. Импортируем данную картинку, точно так же, как и аудио-трек, затем так же помещаем её в композицию.
+                                </div>
+                            </div>
+                            <img class="long" src="picture/fivestr/5.jpg" alt="">
+                            <div class="paralax_textthree">
+                                <div class="othertext">
+                                    Для создания эквалайзера под трек нам понадобиться эффект "Audio Spectrum", он так и называется, поэтому чтобы его найти в панели "Эффекты и присеты" в поисковой строке пишем "Audio spectrum".
+                                </div>
+                            </div>
+                            <img class="long" src="picture/fivestr/5.jpg" alt="">
+                            <div class="paralax_textthree">
+                                <div class="othertext">
+                                    Теперь создаём новый слой-заливку, кликаем правой кнопкой мыши в панели слоёв и выбираем "New" - "Solid".
+                                </div>
+                            </div>
+                            <img class="long" src="picture/fivestr/6.jpg" alt="">
+                            <div class="paralax_textthree">
+                                <div class="othertext">
+                                    Здесь мы размер оставим по размеру композиции, т.е. Full HD и цвет заливки оставим чёрный.
+                                </div>
+                            </div>
+                            <img class="long" src="picture/fivestr/7.jpg" alt="">
+                            <div class="paralax_textthree">
+                                <div class="othertext">
+                                    Далее, просто перетаскиваем эффект "Audio spectrum" на слой с заливкой, удерживая левую кнопку мыши.
+                                </div>
+                            </div>
+                            <img class="long" id="result" src="picture/fivestr/8.jpg" alt="">
+                            <div class="paralax_textthree">
+                                <div class="othertext">
+                                    Теперь видим, что у нас тут уже отображаются вот такие вот еле видимые розовые точки - это и есть эквалайзер.
+                                </div>
+                            </div>
+                            <img class="long" src="picture/fivestr/9.jpg" alt="">
+                            <div class="paralax_textthree">
+                                <div class="othertext">
+                                    Если мы попробуем проиграть трек, то увидим, что с эквалайзером ничего не происходит, он не реагирует на аудио-файл. Для того, чтобы подключить эффект "Audio spectrum" к слою с треком необходимо в настройках эффекта параметру "Audio layer" показать наш слой с треком.
+                                </div>
+                            </div>
+                            <img class="long" src="picture/fivestr/10.jpg" alt="">
+                            <div class="paralax_textthree">
+                                <div class="othertext">
+                                    Теперь, если мы проиграем композицию, то увидим, что эквалайзер работает.
+                                </div>
+                            </div>
+                            <img class="long" src="picture/fivestr/11.jpg" alt="">
+                            <div class="paralax_textthree">
+                                <div class="othertext">
+                                    Ну собственно и всё, у нас есть простой эквалайзер, который теперь можно настроить как нам необходимо. Можно взять прямо этот слой, уменьшить или увеличить его, подвинуть в нужное место. Так же с помощью параметров данного эффекта можно настроить его внешний вид. В окне настроек данного эффекта куча всяких параметров, с помощью которых можно откорректировать внешний вид эквалайзера.
+                                </div>
+                            </div>
+                            <img class="long" src="picture/fivestr/12.jpg" alt="">
+                            <div class="paralax_textthree">
+                                <div class="othertext">
+                                    Здесь особо обяснять нечего, можете сами попробовать покрутить настройки. Есть еще и несколько разновидностей эквалайзера, например вот сейчас стоит цифровой (digital), тут в настройках можно поставить аналоговый линиями и аналоговый точками. Вообщем, вот таким образом делается простой эквалайзер в After Effects.
+                                </div>
+                            </div>
+                    </div>
+                </div>
+               
+
+
+               
+            </div>
+        </div>
+    </div>
+   
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>

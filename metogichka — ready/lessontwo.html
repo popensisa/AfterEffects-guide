@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="page">
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <a href="index.html">
+                    <i class="adobe"><img src="icons/bxl-adobe.svg" alt=""></i>
+                </a>
+                <div class="logo_name">AELab</div>
+            </div>
+            <i class="menu" id="btn"><img src="icons/menu-regular-24.png" alt=""></i>
+        </div>
+        <ul class="nav_list">
+            <li>
+                <a href="lessonone.html">
+                    <i>1</i>
+                    <span class="links_name">Создание маски</span>
+                    <span class="tooltip">Создание маски</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i>2</i>
+                    <span class="links_name">Живое фото</span>
+                    <span class="tooltip">Живое фото</span>
+                </a>
+            </li>
+            <li>
+                <a href="lessonthree.html">
+                    <i>3</i>
+                    <span class="links_name">Цвета объектов</span>
+                    <span class="tooltip">Цвета объектов</span>
+                </a>
+            </li>
+            <li>
+                <a href="lessonfour.html">
+                    <i>4</i>
+                    <span class="links_name">Анимация 3D</span>
+                    <span class="tooltip">Анимация 3D</span>
+                </a>
+            </li>
+            <li>
+                <a href="lessonfive.html">
+                    <i>5</i>
+                    <span class="links_name">Эквалайзер</span>
+                    <span class="tooltip">Эквалайзер</span>
+                </a>
+            </li>
+        </ul>
+        <div class="made">
+            <p class="myname">Выполнил Никита Трунов</p>
+            <p class="job">Курсовая работа</p>
+        </div>
+    </div>
+    <div class="intro_baz">
+        <div class="container">
+            <div class="baz_title">Живое фото или 4 способа анимировать картинку</div>
+            <div class="mask lesone">
+                <div class="decimal">
+                    <div class="prin">Сперва отделяем друг от друга и от фона те части картинки, которые мы собрались анимировать (проще всего делать это в фотошопе, копируя на новый слой)</div>
+                    <div class="prin">Затем заполняем с учётом содержимого вырезанные части на предыдущих слоях</div>
+                    <div class="prin">После переносим в программу, в которой будем анимировать</div>
+                </div>
+                <div class="paralax">
+                    <div class="paralax_text">
+                        <div class="box_title"><p class="title">Параллакс</p></div>
+                        <div class="othertext">
+                            Суть эффекта состоит в том, чтобы передать объём сцены.
+                            <p class="title">Свойства маски</p>
+                            Достигается это довольно легко, делаем фон больше, чем наш кадр и при смещении, двигаем задний план и передний с разными скоростями.
+                            Чаще всего сам фон разбивают на несколько частей по мере отдаления их от зрителя и двигают их с разной скоростью (чем дальше, тем медленнее).
+                            Подобный приём уже давно применяется в 2Dиграх.
+                            Mask Opacity — Определяет прозрачность маски.
+                        </div>
+                    </div>
+                    <img src="video/orig.gif" alt="">
+                </div>
+                <div class="paralax">
+                    <div class="paralax_text">
+                        <div class="box_title"><p class="title">Искажение</p></div>
+                        <div class="othertext">
+                            Используются все возможные способы деформации картинки.
+                            В том числе и заранее заготовленные эффекты такие, как Wave Warp или Turbulent Displace.
+                            С их помощью анимируют флаги, облака, дым, воду и прочие объекты с повторяющимися движениями.                            
+                        </div>
+                    </div>
+                    <img src="video/orig (1).gif" alt="">
+                </div>
+                <div class="paralax">
+                    <div class="paralax_text">
+                        <div class="box_title"><p class="title">Искажение</p></div>
+                        <div class="othertext">
+                            С помощью «костей» можно передвигать и искажать части картинки так, как будто это части тела.
+                            При повороте кости искажение происходит лишь в точках, а отрезки – «кости» будут оставаться неизменными (их естественно можно исказить отдельно).
+                        </div>
+                    </div>
+                    <img src="video/orig (2).gif" alt="">
+                </div>
+                <div class="paralax">
+                    <div class="paralax_text">
+                        <div class="box_title"><p class="title">Перемещение</p></div>
+                        <div class="othertext">
+                            Самые что ни на есть обычные – перемещение и масштабирование картинки. 
+                            В купе с остальными способами создают анимации из фото.
+                        </div>
+                    </div>
+                    <img src="video/HpkT62VC2Q.gif" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
